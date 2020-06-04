@@ -1,10 +1,80 @@
-.red{
-	width: 50px;
-    height: 50px;
-    background: red;
+*{
+	padding: 0;
+	margin: 0;
 }
-.blue{
-	width: 50px;
-	height: 50px;
-	background: blue;
+
+.container
+{
+	max-width: 1200px;
+	padding: 0 15px;
+	margin: 0 auto;
+}
+
+.header
+{
+	padding-top: 40px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.headerLogo
+{
+	max-width: 330px;
+
+	font-family: Neutraface Text;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 16px;
+	color: #000000;
+}
+
+.headerLogoBold
+{
+	font-weight: bold;
+}
+
+.headerGraphic
+{
+	display: flex;
+}
+
+.headerGraphicText
+{
+	margin-left: 10px;
+
+	font-family: Neutraface Text;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 16px;
+	color: #000000;
+	margin-top: -5px;
+}
+
+.headerSearchInput
+{
+	width: 200px;
+	height: 30px;
+	background: #72222E;
+	border-radius: 9px;
+	outline: none;
+	border: none;
+
+	color: #fff;
+	text-align: right;
+	padding-left: 20px;
+	padding-right: 50px;
+}
+
+.headerSearchImg
+{
+	position: absolute;
+	right: 20px;
+	top: 7px;
+}
+
+.headerSearchInputWr
+{
+	position: relative;
 }
