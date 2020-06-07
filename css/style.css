@@ -13,8 +13,9 @@
 }
 .headerTop
 {
-
+	display: flex;
 }
+
 
 .headerNavItem
 {
@@ -24,9 +25,12 @@
 	padding-top: 20px;
 }
 
-.header
+.headerWr
 {
-	
+	background-image: url(../img/bgc.png);
+	height: 542px;	
+	background-size: contain;
+
 }
 
 .headerNav
