@@ -1,0 +1,71 @@
+*
+{
+	padding: 0px;
+	margin: 0px;
+}
+
+.container
+{
+	max-width: 1114px;
+	margin: 0 auto;
+	
+
+}
+.headerTop
+{
+
+}
+
+.headerNavItem
+{
+	color: white;
+	font-family: Circe;
+	margin-left: 47px;
+	padding-top: 20px;
+}
+
+.header
+{
+	
+}
+
+.headerNav
+{
+	display: flex;
+	justify-content: center;
+	margin-left: -47px;
+}
+
+.headerSearchWr
+{
+	display: flex;
+}
+
+.imgSearch
+{
+	
+}
+
+.langWr
+{
+	color: white;
+	font-family: Circe;
+	display: flex;
+
+
+}
+.langImg
+{
+	
+}
+
+.headerControls
+{
+	display: flex;
+}
+
+.headerSearch
+{
+	margin-right: 70px;
+}
+

@@ -91,8 +91,53 @@ a
 	padding-top: 30px;
 }
 
-.footerSubscribeInput
+.footerSubscribeInput input
 {
 	border: none;
 	box-shadow: none;
+	height: 40px;
+	width: 180px;
+
 }
+
+.footerSubscribeInputImg
+{
+	width: 40px;
+	height: 40px;
+	background: #F6404F;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.footerSubscribeInput
+{
+	display: flex;
+	font-family: Circe;
+}
+
+.footerSubscribeTitle
+{
+	font-family: Circe;
+	font-size: 21px;
+	color: white;
+	padding-bottom: 15px;
+}
+
+.footerSubscribeInf
+{
+	font-family: Circe;
+	font-size: 14px;
+	color: #E0E0E0;
+	padding-bottom: 25px;
+}
+
+.footerSubscribe
+{
+	margin-top: 50px;
+}
+
+.footerLink a:hover
+{
+	color: #FFC41E;
+}  
