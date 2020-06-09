@@ -1,0 +1,57 @@
+@media (max-width: 1024px)  
+{
+	.bannerHeadTitle
+	{
+		font-size: 48px;
+	}
+
+	.bannerHeadInf
+	{
+		font-size: 21px;
+	}
+
+	.eventBot
+	{
+		justify-content: space-around;
+	}
+
+	.adPictures
+	{
+		padding-right: 90px;
+	}
+
+	.bannerLink
+	{
+		width: 185px;
+		margin-bottom: 20px;
+		margin-right: 0;
+	}
+
+	.bannerLinks
+	{
+		justify-content: space-around;
+		padding-left: 0;
+		margin-right: 0;
+	}
+
+	.bannerHead
+	{
+		width: 40%;
+	}
+
+	.banner
+	{
+		justify-content: space-between;
+	}
+
+	.headerNavItem
+	{
+		font-size: 15px;
+	}
+
+	.footerSubscribeInput
+	{
+		display: none;
+	}
+			
+}

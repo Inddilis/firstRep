@@ -36,7 +36,7 @@ a
 {
 	background-image: url(../img/bgc.png);
 	height: 542px;	
-	background-size: contain;
+	background-size: cover;
 
 }
 
@@ -146,11 +146,10 @@ a
 	
 }
 
+
 .bannerLink1
 {
 	background-color: #2378FC;
-	width: 230px;
-	
 }
 
 .bannerLinkComp
@@ -160,14 +159,12 @@ a
 
 .bannerLink2
 {
-	width: 230px;
 	
 	background-color: #FFC41E;
 }
 
 .bannerLink3
 {
-	width: 230px;
 	
 	background-color: #30BCC9;
 
@@ -175,7 +172,6 @@ a
 
 .bannerLink4
 {
-	width: 230px;
 	
 	background-color: #F6404F;
 }
@@ -184,6 +180,7 @@ a
 {
 	margin-right: 30px;
 	margin-bottom: 30px;
+	width: 230px;
 }
 
 .bannerHeadLink:hover .bannerHeadImg
