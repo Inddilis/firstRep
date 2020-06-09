@@ -17,7 +17,7 @@
 
 	.adPictures
 	{
-		padding-right: 90px;
+		padding-right: 80px;
 	}
 
 	.bannerLink
@@ -53,5 +53,58 @@
 	{
 		display: none;
 	}
-			
+
+	.eventBot
+	{
+		margin-right: 0px;
+	}
+
+	.adPictures img
+	{
+		width: 425px;
+	}
+
+	.news
+	{
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.usefullLinks
+	{
+		flex-wrap: wrap;
+		margin-right: 0;
+		margin-bottom: -20px;
+	}
+
+	.usefullLinksItem
+	{
+		margin-right: 20px;
+		margin-bottom: 20px;
+	}
+
+	.footerContacts
+	{
+		display: none;
+	}
+	
+	.footer
+	{
+		justify-content: space-around;
+	}
+
+	.newsAll
+	{
+		margin-bottom: 30px;
+	}
 }
+
+@media (max-width: 425px)
+{
+	.adPictures img
+	{
+		width: 300px;
+	} 
+
+}
+
